@@ -1,0 +1,62 @@
+.zapatillasSlider img{
+    max-width: 100%;
+    height: max-content;
+}
+
+.zapatillasTitle h2{
+    text-align: center;
+    color: $colorH;
+    text-transform: uppercase;
+}
+.zapatillasSliderMob img{
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.zapatillasGaleria{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 10px;
+    img{
+        width: 100%;
+    }
+    h3{
+        color:$colorH;
+        font-size: 15px; 
+    }
+    p{
+        font-size: 13px;
+        color: $colorP;
+    }
+    .zapatillasGaleria__img{
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px;
+        img:hover{
+           opacity: .5;
+           transition: .5s;
+           cursor: pointer;
+        }
+    }
+}
+@media (max-width:858px) {
+    .zapatillasGaleria{
+    grid-template-columns:repeat(1, 2fr);
+        h3{
+            font-size: 20px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+    .zapatillasSlider{
+        display: none;
+    }
+    .zapatillasSliderMob img{
+        padding: 1px 0;
+        display: block;
+    }
+}

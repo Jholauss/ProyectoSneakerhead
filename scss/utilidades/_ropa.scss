@@ -1,0 +1,52 @@
+.ropa{
+    h2{
+    color:$colorH;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    .ropaGaleria{
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+        gap: 10px;
+        img{
+            width: 100%;
+        }
+        h3{
+            color:$colorH;
+            font-size: 15px;
+        }
+        p{
+            font-size: 13px;
+            color:$colorP;
+        }
+        .ropaGaleria__img{
+            text-align: center;
+            border-radius: 10px;
+            padding: 5px;
+            a:hover{
+                opacity: .5;
+                transition: .5s; 
+            }
+        }
+    }
+}
+@media (max-width:858px) {
+    .ropa{
+        .ropaGaleria{
+            grid-template-columns:repeat(1, 2fr);
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+   

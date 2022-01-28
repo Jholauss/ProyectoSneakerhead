@@ -1,0 +1,23 @@
+
+.navbar-dark .navbar-nav .nav-link{
+    color: $colorNav;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: $colorNavHover;
+    transition: 1s;
+}
+.navbar-brand:hover{
+    opacity: .4;
+    transition: 1s;
+}
+@media (min-width: 1400px){
+    nav{
+        ul{
+            li{
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

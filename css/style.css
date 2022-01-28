@@ -1,0 +1,177 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+footer {
+  height: 8vh; }
+
+main {
+  min-height: 92vh; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f7f7f8; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #d44747;
+  transition: 1s; }
+
+.navbar-brand:hover {
+  opacity: .4;
+  transition: 1s; }
+
+@media (min-width: 1400px) {
+  nav ul li a {
+    font-size: 14px; } }
+
+.slid-mobile {
+  display: none; }
+
+.section2 h2 {
+  text-align: center;
+  color: #221E31; }
+
+.section2 .gifs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  .section2 .gifs .gifs__models {
+    padding: 40px 30px;
+    width: 300px; }
+
+.section3 h2 {
+  text-align: center;
+  color: #221E31; }
+
+.section3 h3 {
+  text-align: center;
+  font-size: 15px; }
+
+.section3 p {
+  font-size: 13px; }
+
+.section3 .destacados {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 10px; }
+  .section3 .destacados img {
+    width: 80%; }
+  .section3 .destacados .destacados__img {
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px; }
+    .section3 .destacados .destacados__img h3 {
+      color: #221E31; }
+    .section3 .destacados .destacados__img img:hover {
+      opacity: .5;
+      transition: .5s; }
+
+@media (max-width: 858px) {
+  /* index */
+  .slid-desk {
+    display: none; }
+  .slid-mobile {
+    display: block; }
+  .gifs .gifs__models {
+    width: 350px; }
+  .section3 .destacados {
+    grid-template-columns: repeat(1, 2fr); } }
+
+footer {
+  height: 8vh; }
+
+.txt-foot {
+  font-size: 10px; }
+
+.ropa h2 {
+  color: #221E31;
+  text-align: center;
+  text-transform: uppercase; }
+
+.ropa .ropaGaleria {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px; }
+  .ropa .ropaGaleria img {
+    width: 100%; }
+  .ropa .ropaGaleria h3 {
+    color: #221E31;
+    font-size: 15px; }
+  .ropa .ropaGaleria p {
+    font-size: 13px;
+    color: #1A1821; }
+  .ropa .ropaGaleria .ropaGaleria__img {
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px; }
+    .ropa .ropaGaleria .ropaGaleria__img a:hover {
+      opacity: .5;
+      transition: .5s; }
+
+@media (max-width: 858px) {
+  .ropa .ropaGaleria {
+    grid-template-columns: repeat(1, 2fr); } }
+
+.zapatillasSlider img {
+  max-width: 100%;
+  height: max-content; }
+
+.zapatillasTitle h2 {
+  text-align: center;
+  color: #221E31;
+  text-transform: uppercase; }
+
+.zapatillasSliderMob img {
+  width: 100%;
+  text-align: center;
+  display: none; }
+
+.zapatillasGaleria {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px; }
+  .zapatillasGaleria img {
+    width: 100%; }
+  .zapatillasGaleria h3 {
+    color: #221E31;
+    font-size: 15px; }
+  .zapatillasGaleria p {
+    font-size: 13px;
+    color: #1A1821; }
+  .zapatillasGaleria .zapatillasGaleria__img {
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px; }
+    .zapatillasGaleria .zapatillasGaleria__img img:hover {
+      opacity: .5;
+      transition: .5s;
+      cursor: pointer; }
+
+@media (max-width: 858px) {
+  .zapatillasGaleria {
+    grid-template-columns: repeat(1, 2fr); }
+    .zapatillasGaleria h3 {
+      font-size: 20px; }
+    .zapatillasGaleria p {
+      font-size: 18px; }
+  .zapatillasSlider {
+    display: none; }
+  .zapatillasSliderMob img {
+    padding: 1px 0;
+    display: block; } }
+
+.bg {
+  background-image: url(../img/astronauta.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }

@@ -1,0 +1,10 @@
+
+$altura-footer:8vh;
+// footer siempre abajo
+
+footer{
+    height: $altura-footer;
+}
+main{
+    min-height: 100vh-($altura-footer);
+}
