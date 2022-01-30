@@ -7,6 +7,17 @@
 .sticky-top {
   z-index: 2; }
 
+.section2 h2, .section3 h2 {
+  text-align: center;
+  color: #221E31;
+  padding-top: 20px;
+  text-transform: uppercase; }
+
+.adidas h5, .reebok h5, .nike h5 {
+  text-align: center;
+  color: #221E31;
+  text-transform: uppercase; }
+
 footer {
   height: 8vh; }
 
@@ -30,12 +41,6 @@ main {
 @media (min-width: 1400px) {
   nav ul li a {
     font-size: 14px; } }
-
-.section2 h2, .section3 h2 {
-  text-align: center;
-  color: #221E31;
-  padding-top: 20px;
-  text-transform: uppercase; }
 
 .section2 .gifs {
   display: flex;
@@ -194,11 +199,6 @@ footer {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.adidas h6 {
-  color: #221E31;
-  text-align: center;
-  text-transform: uppercase; }
-
 .adidas .adidasGaleria {
   width: 90%;
   margin: 0 auto;
@@ -227,11 +227,6 @@ footer {
   .adidas .adidasGaleria {
     grid-template-columns: repeat(1, 2fr); } }
 
-.reebok h6 {
-  color: #221E31;
-  text-align: center;
-  text-transform: uppercase; }
-
 .reebok .reebokGaleria {
   width: 90%;
   margin: 0 auto;
@@ -259,11 +254,6 @@ footer {
 @media (max-width: 858px) {
   .reebok .reebokGaleria {
     grid-template-columns: repeat(1, 2fr); } }
-
-.nike h6 {
-  color: #221E31;
-  text-align: center;
-  text-transform: uppercase; }
 
 .nike .nikeGaleria {
   width: 90%;

@@ -1,9 +1,3 @@
-%TITULOS{
-    text-align: center;
-    color: $colorH ;
-    padding-top: 20px;
-    text-transform: uppercase;
-}
 .section2{
     h2{
         @extend %TITULOS;

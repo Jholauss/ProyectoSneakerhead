@@ -1,8 +1,6 @@
 .adidas{
-    h6{
-    color:$colorH;
-    text-align: center;
-    text-transform: uppercase;
+    h5{
+        @extend %TITULOSH5;
     }
     .adidasGaleria{
         width: 90%;
@@ -25,9 +23,7 @@
         }
         // cards adidas
         .adidasGaleria__img{
-            text-align: center;
-            border-radius: 10px;
-            padding: 5px;
+            @include cards(10px,5px);
             a:hover{
                 opacity: .5;
                 transition: .5s; 
