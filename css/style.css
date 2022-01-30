@@ -31,13 +31,11 @@ main {
   nav ul li a {
     font-size: 14px; } }
 
-.slid-mobile {
-  display: none; }
-
-.section2 h2 {
+.section2 h2, .section3 h2 {
   text-align: center;
   color: #221E31;
-  padding-top: 20px; }
+  padding-top: 20px;
+  text-transform: uppercase; }
 
 .section2 .gifs {
   display: flex;
@@ -52,9 +50,7 @@ main {
 
 .section3 h2 {
   padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  color: #221E31; }
+  padding-bottom: 20px; }
 
 .section3 h3 {
   text-align: center;
@@ -82,6 +78,9 @@ main {
     .section3 .destacados .destacados__img img:hover {
       opacity: .5;
       transition: .5s; }
+
+.slid-mobile {
+  display: none; }
 
 @media (max-width: 858px) {
   /* index */

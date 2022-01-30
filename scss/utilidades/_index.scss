@@ -1,11 +1,12 @@
-.slid-mobile{
-    display: none;
-}
-.section2{
-    h2{
+%TITULOS{
     text-align: center;
     color: $colorH ;
     padding-top: 20px;
+    text-transform: uppercase;
+}
+.section2{
+    h2{
+        @extend %TITULOS;
     }
     .gifs{
         display: flex;
@@ -24,8 +25,7 @@
     h2{
         padding-top: 20px;
         padding-bottom: 20px;
-        text-align: center;
-        color: $colorH ;
+        @extend %TITULOS;
     }
     h3{
         text-align: center;
@@ -60,7 +60,9 @@
     }
 }
 
-
+.slid-mobile{
+    display: none;
+}
 
 @media (max-width:858px) {
     /* index */
