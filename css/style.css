@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+.sticky-top {
+  z-index: 2; }
+
 footer {
   height: 8vh; }
 
@@ -20,6 +23,9 @@ main {
 .navbar-brand:hover {
   opacity: .4;
   transition: 1s; }
+
+.menu-img {
+  width: 80%; }
 
 @media (min-width: 1400px) {
   nav ul li a {
@@ -81,7 +87,9 @@ main {
   .gifs .gifs__models {
     width: 350px; }
   .section3 .destacados {
-    grid-template-columns: repeat(1, 2fr); } }
+    grid-template-columns: repeat(1, 2fr); }
+  .menu-img {
+    width: 22%; } }
 
 footer {
   height: 8vh; }
@@ -89,7 +97,7 @@ footer {
 .txt-foot {
   font-size: 10px; }
 
-.ropa h2 {
+.ropa h4 {
   color: #221E31;
   text-align: center;
   text-transform: uppercase; }
@@ -124,7 +132,7 @@ footer {
   max-width: 100%;
   height: max-content; }
 
-.zapatillasTitle h2 {
+.zapatillasTitle h4 {
   text-align: center;
   color: #221E31;
   text-transform: uppercase; }
@@ -175,3 +183,96 @@ footer {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat; }
+
+.adidas h6 {
+  color: #221E31;
+  text-align: center;
+  text-transform: uppercase; }
+
+.adidas .adidasGaleria {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px; }
+  .adidas .adidasGaleria img {
+    width: 100%; }
+  .adidas .adidasGaleria h3 {
+    color: #221E31;
+    font-size: 15px; }
+  .adidas .adidasGaleria p {
+    font-size: 13px;
+    color: #1A1821; }
+  .adidas .adidasGaleria .adidasGaleria__img {
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px; }
+    .adidas .adidasGaleria .adidasGaleria__img a:hover {
+      opacity: .5;
+      transition: .5s; }
+
+@media (max-width: 858px) {
+  .adidas .adidasGaleria {
+    grid-template-columns: repeat(1, 2fr); } }
+
+.reebok h6 {
+  color: #221E31;
+  text-align: center;
+  text-transform: uppercase; }
+
+.reebok .reebokGaleria {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px; }
+  .reebok .reebokGaleria img {
+    width: 100%; }
+  .reebok .reebokGaleria h3 {
+    color: #221E31;
+    font-size: 15px; }
+  .reebok .reebokGaleria p {
+    font-size: 13px;
+    color: #1A1821; }
+  .reebok .reebokGaleria .reebokGaleria__img {
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px; }
+    .reebok .reebokGaleria .reebokGaleria__img a:hover {
+      opacity: .5;
+      transition: .5s; }
+
+@media (max-width: 858px) {
+  .reebok .reebokGaleria {
+    grid-template-columns: repeat(1, 2fr); } }
+
+.nike h6 {
+  color: #221E31;
+  text-align: center;
+  text-transform: uppercase; }
+
+.nike .nikeGaleria {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px; }
+  .nike .nikeGaleria img {
+    width: 100%; }
+  .nike .nikeGaleria h3 {
+    color: #221E31;
+    font-size: 15px; }
+  .nike .nikeGaleria p {
+    font-size: 13px;
+    color: #1A1821; }
+  .nike .nikeGaleria .nikeGaleria__img {
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px; }
+    .nike .nikeGaleria .nikeGaleria__img a:hover {
+      opacity: .5;
+      transition: .5s; }
+
+@media (max-width: 858px) {
+  .nike .nikeGaleria {
+    grid-template-columns: repeat(1, 2fr); } }
