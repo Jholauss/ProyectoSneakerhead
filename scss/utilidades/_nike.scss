@@ -11,9 +11,11 @@
         grid-template-columns:repeat(4, 1fr);
         gap: 10px;
         img{
+            border-radius: 15px;
             width: 100%;
         }
         h3{
+            padding-top: 20px;
             color:$colorH;
             font-size: 15px;
         }

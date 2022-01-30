@@ -36,7 +36,8 @@ main {
 
 .section2 h2 {
   text-align: center;
-  color: #221E31; }
+  color: #221E31;
+  padding-top: 20px; }
 
 .section2 .gifs {
   display: flex;
@@ -50,6 +51,8 @@ main {
     width: 300px; }
 
 .section3 h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   color: #221E31; }
 
@@ -67,12 +70,14 @@ main {
   grid-template-columns: repeat(3, 2fr);
   gap: 10px; }
   .section3 .destacados img {
+    border-radius: 20px;
     width: 80%; }
   .section3 .destacados .destacados__img {
     text-align: center;
     border-radius: 10px;
     padding: 5px; }
     .section3 .destacados .destacados__img h3 {
+      padding-top: 20px;
       color: #221E31; }
     .section3 .destacados .destacados__img img:hover {
       opacity: .5;
@@ -92,6 +97,7 @@ main {
     width: 22%; } }
 
 footer {
+  border-top: solid 3px #dc3545;
   height: 8vh; }
 
 .txt-foot {
@@ -109,8 +115,10 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px; }
   .ropa .ropaGaleria img {
+    border-radius: 15px;
     width: 100%; }
   .ropa .ropaGaleria h3 {
+    padding-top: 20px;
     color: #221E31;
     font-size: 15px; }
   .ropa .ropaGaleria p {
@@ -129,10 +137,11 @@ footer {
     grid-template-columns: repeat(1, 2fr); } }
 
 .zapatillasSlider img {
-  max-width: 100%;
+  width: 100%;
   height: max-content; }
 
 .zapatillasTitle h4 {
+  padding: 20px 20px;
   text-align: center;
   color: #221E31;
   text-transform: uppercase; }
@@ -149,8 +158,10 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px; }
   .zapatillasGaleria img {
+    border-radius: 15px;
     width: 100%; }
   .zapatillasGaleria h3 {
+    padding-top: 20px;
     color: #221E31;
     font-size: 15px; }
   .zapatillasGaleria p {
@@ -196,8 +207,10 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px; }
   .adidas .adidasGaleria img {
+    border-radius: 10px;
     width: 100%; }
   .adidas .adidasGaleria h3 {
+    padding-top: 20px;
     color: #221E31;
     font-size: 15px; }
   .adidas .adidasGaleria p {
@@ -227,8 +240,10 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px; }
   .reebok .reebokGaleria img {
+    border-radius: 10px;
     width: 100%; }
   .reebok .reebokGaleria h3 {
+    padding-top: 20px;
     color: #221E31;
     font-size: 15px; }
   .reebok .reebokGaleria p {
@@ -258,8 +273,10 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px; }
   .nike .nikeGaleria img {
+    border-radius: 15px;
     width: 100%; }
   .nike .nikeGaleria h3 {
+    padding-top: 20px;
     color: #221E31;
     font-size: 15px; }
   .nike .nikeGaleria p {
