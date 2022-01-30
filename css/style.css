@@ -140,38 +140,38 @@ footer {
   width: 100%;
   height: max-content; }
 
-.zapatillasTitle h4 {
-  padding: 20px 20px;
-  text-align: center;
-  color: #221E31;
-  text-transform: uppercase; }
-
 .zapatillasSliderMob img {
   width: 100%;
   text-align: center;
   display: none; }
 
-.zapatillasGaleria {
+.zapatillas h4 {
+  padding: 20px 20px;
+  text-align: center;
+  color: #221E31;
+  text-transform: uppercase; }
+
+.zapatillas .zapatillasGaleria {
   width: 90%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px; }
-  .zapatillasGaleria img {
+  .zapatillas .zapatillasGaleria img {
     border-radius: 15px;
     width: 100%; }
-  .zapatillasGaleria h3 {
+  .zapatillas .zapatillasGaleria h3 {
     padding-top: 20px;
     color: #221E31;
     font-size: 15px; }
-  .zapatillasGaleria p {
+  .zapatillas .zapatillasGaleria p {
     font-size: 13px;
     color: #1A1821; }
-  .zapatillasGaleria .zapatillasGaleria__img {
+  .zapatillas .zapatillasGaleria .zapatillasGaleria__img {
     text-align: center;
     border-radius: 10px;
     padding: 5px; }
-    .zapatillasGaleria .zapatillasGaleria__img img:hover {
+    .zapatillas .zapatillasGaleria .zapatillasGaleria__img img:hover {
       opacity: .5;
       transition: .5s;
       cursor: pointer; }
