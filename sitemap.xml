@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://jholauss.github.io/ProyectoSneakerhead/</loc>
+  <lastmod>2022-01-30T05:10:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://jholauss.github.io/ProyectoSneakerhead/index.html</loc>
+  <lastmod>2022-01-30T05:10:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jholauss.github.io/ProyectoSneakerhead/zapatillas.html</loc>
+  <lastmod>2022-01-30T05:10:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jholauss.github.io/ProyectoSneakerhead/section-ropa/adidas.html</loc>
+  <lastmod>2022-01-30T05:10:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jholauss.github.io/ProyectoSneakerhead/section-ropa/nike.html</loc>
+  <lastmod>2022-01-30T05:10:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jholauss.github.io/ProyectoSneakerhead/section-ropa/reebok.html</loc>
+  <lastmod>2022-01-30T05:10:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jholauss.github.io/ProyectoSneakerhead/ropa.html</loc>
+  <lastmod>2022-01-30T05:10:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jholauss.github.io/ProyectoSneakerhead/comunidad.html</loc>
+  <lastmod>2022-01-30T05:10:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
